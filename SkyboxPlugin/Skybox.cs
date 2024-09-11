@@ -27,7 +27,7 @@ namespace avaness.SkyboxPlugin
 
             def.EnvironmentTexture = ob.EnvironmentTexture;
             def.EnvironmentOrientation = ob.EnvironmentOrientation;
-            def.SunProperties = ob.SunProperties;
+            MySector.SunProperties = ob.SunProperties;
         }
 
         public override string ToString()
